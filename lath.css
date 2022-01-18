@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+                                                                    /* CSS */
+
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(bush.png);
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: rgb(55, 229, 235);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px black,
+            0 0 0 4px rgb(55, 229, 235),
+            0 0 0 6px black;
+    position: relative;
+}
+.ribbon {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-image: url("1.png");
+	background-repeat: no-repeat;
+    background-size: 170px;
+    text-indent: -99999999px;
+	position: absolute;
+    top: -25px;
+    left: 720px;
+	
+}
+.header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 2px red,
+        4px 4px 2px yellow;
+    
+}
+.header ul li {
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px white,
+        2px 2px 4px red;
+}
+.header img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    margin-right: 20px;
+    box-shadow: 0 0 0 2px black;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}*/
